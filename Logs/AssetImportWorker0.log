@@ -277,3 +277,4 @@ Received Import Request.
 Start importing Assets/William/Scripts using Guid(7c3e9bfe3eb5cf14eb3cdc34f7735045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8dc828ac969ded5e5b8d6e3a458ada2') in 0.001788 seconds 
   Import took 0.004509 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
