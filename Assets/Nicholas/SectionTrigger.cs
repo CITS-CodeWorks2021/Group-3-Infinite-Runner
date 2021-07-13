@@ -8,7 +8,6 @@ public class SectionTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Entered!");
         if (collision.tag == "Player")
         {
             Debug.Log("Triggered!");
