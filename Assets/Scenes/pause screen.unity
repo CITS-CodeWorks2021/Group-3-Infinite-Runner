@@ -279,6 +279,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 199672060859142842, guid: 5fabe6c5bae845346a802403ec252ba9, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 199672060859142842, guid: 5fabe6c5bae845346a802403ec252ba9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dfbe3e209fb00154bb4c07c2670ed44a, type: 3}
+    - target: {fileID: 199672060859142842, guid: 5fabe6c5bae845346a802403ec252ba9, type: 3}
+      propertyPath: m_Color.a
+      value: 0.90588236
+      objectReference: {fileID: 0}
+    - target: {fileID: 199672060859142842, guid: 5fabe6c5bae845346a802403ec252ba9, type: 3}
+      propertyPath: m_Color.b
+      value: 0.27058825
+      objectReference: {fileID: 0}
+    - target: {fileID: 199672060859142842, guid: 5fabe6c5bae845346a802403ec252ba9, type: 3}
+      propertyPath: m_Color.g
+      value: 0.25490198
+      objectReference: {fileID: 0}
+    - target: {fileID: 199672060859142842, guid: 5fabe6c5bae845346a802403ec252ba9, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1820435309244152916, guid: 5fabe6c5bae845346a802403ec252ba9, type: 3}
       propertyPath: m_SizeDelta.x
       value: 190.9859
@@ -321,19 +345,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5797374740724347470, guid: 5fabe6c5bae845346a802403ec252ba9, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 633
+      value: 658.2569
       objectReference: {fileID: 0}
     - target: {fileID: 5797374740724347470, guid: 5fabe6c5bae845346a802403ec252ba9, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -2
+      value: 30.834
       objectReference: {fileID: 0}
     - target: {fileID: 5797374740724347470, guid: 5fabe6c5bae845346a802403ec252ba9, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -316.5
+      value: -313.9744
       objectReference: {fileID: 0}
     - target: {fileID: 5797374740724347470, guid: 5fabe6c5bae845346a802403ec252ba9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1
+      value: -0.26280212
       objectReference: {fileID: 0}
     - target: {fileID: 6292222962571722188, guid: 5fabe6c5bae845346a802403ec252ba9, type: 3}
       propertyPath: m_SizeDelta.x

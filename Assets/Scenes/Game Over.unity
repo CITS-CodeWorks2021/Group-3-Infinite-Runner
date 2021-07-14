@@ -146,6 +146,26 @@ PrefabInstance:
       propertyPath: m_Colors.m_PressedColor.r
       value: 0.9811321
       objectReference: {fileID: 0}
+    - target: {fileID: 4015032705116575986, guid: 742430b57291d9442a1f32539b166d22, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4015032705116575986, guid: 742430b57291d9442a1f32539b166d22, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dfbe3e209fb00154bb4c07c2670ed44a, type: 3}
+    - target: {fileID: 4015032705116575986, guid: 742430b57291d9442a1f32539b166d22, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6494749
+      objectReference: {fileID: 0}
+    - target: {fileID: 4015032705116575986, guid: 742430b57291d9442a1f32539b166d22, type: 3}
+      propertyPath: m_Color.g
+      value: 0.990566
+      objectReference: {fileID: 0}
+    - target: {fileID: 4015032705116575986, guid: 742430b57291d9442a1f32539b166d22, type: 3}
+      propertyPath: m_Color.r
+      value: 0.969588
+      objectReference: {fileID: 0}
     - target: {fileID: 7402745286324150581, guid: 742430b57291d9442a1f32539b166d22, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
