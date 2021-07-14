@@ -10,12 +10,11 @@ public class SectionTrigger : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            Debug.Log("Triggered!");
             Vector3 newSpawnLoc = new Vector3();
             newSpawnLoc.x = transform.position.x + 20;
             pooler.SpawnRandom(newSpawnLoc);
 
-            if (pooler.NumSpawned > 3) pooler.RemoveOldest();
+            if (pooler.NumSpawned > 6) pooler.RemoveOldest();
         }
 
     }

@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Nicholas/Scenes/Spawing Obj and moving left loop.unity
+    path: Assets/Nicholas/Scenes/Main.unity
     guid: d444420065e228d42b34b0cd88d7f733
   - enabled: 1
     path: Assets/William/Scenes/start menu.unity

@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - SectionTrigger
+  - MyCoin
   layers:
   - Default
   - TransparentFX
