@@ -46,22 +46,31 @@ public class BackgroundScroller : MonoBehaviour
         string minutes = ((int)t / 60).ToString();
         string seconds = (t % 60).ToString("f2");
 
-        if ((t % 60) > 15)
+        float numOfMinutes = ((int)t / 60);
+
+        if (numOfMinutes > 0)
+        {
+            numOfMinutes = numOfMinutes * 60;
+        }
+
+        float timePassed = ((t % 60) + numOfMinutes);
+
+        if (timePassed > 15)
         {
             scrollSpeed = -3f;
         }
 
-        if ((t % 60) > 25)
+        if (timePassed > 25)
         {
             scrollSpeed = -5f;
         }
 
-        if ((t % 60) > 40)
+        if (timePassed > 40)
         {
             scrollSpeed = -7f;
         }
 
-        if((t % 60) > 120)
+        if(timePassed > 120)
         {
             scrollSpeed = -10f;
         }
