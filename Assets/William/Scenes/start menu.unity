@@ -453,6 +453,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: background jukebox
       objectReference: {fileID: 0}
+    - target: {fileID: 1234633711989531822, guid: 53412d5899decde4b9f4772dc051f9f0, type: 3}
+      propertyPath: m_Volume
+      value: 0.32
+      objectReference: {fileID: 0}
     - target: {fileID: 1234633711989531823, guid: 53412d5899decde4b9f4772dc051f9f0, type: 3}
       propertyPath: m_RootOrder
       value: 3
