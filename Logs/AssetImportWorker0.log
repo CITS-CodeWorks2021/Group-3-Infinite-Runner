@@ -1600,3 +1600,28 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 593.729128 seconds.
+  path: Assets/Nicholas/Scenes/Main.unity
+  artifactKey: Guid(d444420065e228d42b34b0cd88d7f733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicholas/Scenes/Main.unity using Guid(d444420065e228d42b34b0cd88d7f733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0014d7f8be216108c0c47ad206eb254') in 0.012996 seconds 
+  Import took 0.019945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.942768 seconds.
+  path: Assets/Nicholas/Scenes/Main.unity
+  artifactKey: Guid(d444420065e228d42b34b0cd88d7f733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicholas/Scenes/Main.unity using Guid(d444420065e228d42b34b0cd88d7f733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3538cf8c78e1f040c8d8a74d5c8c7be8') in 0.002234 seconds 
+  Import took 0.005208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001208 seconds.
+  path: Assets/Nicholas/Scenes/Main.unity
+  artifactKey: Guid(d444420065e228d42b34b0cd88d7f733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nicholas/Scenes/Main.unity using Guid(d444420065e228d42b34b0cd88d7f733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3538cf8c78e1f040c8d8a74d5c8c7be8') in 0.001827 seconds 
+  Import took 0.004694 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
