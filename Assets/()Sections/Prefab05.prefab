@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2442900912270782105}
   - component: {fileID: 6933744543867572654}
   - component: {fileID: 188178959685708136}
+  - component: {fileID: 5130511935102030039}
   m_Layer: 0
   m_Name: asteriod 1 (2)
   m_TagString: MyCoin
@@ -135,6 +136,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 866ea672ee479534ca9201f48b4741fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 0
+  heart1: {fileID: 0}
+  heart2: {fileID: 0}
+  heart3: {fileID: 0}
 --- !u!95 &188178959685708136
 Animator:
   serializedVersion: 3
@@ -154,6 +159,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5130511935102030039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7241250700295569263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee809d5ab36a3ee4489a9e93a7bc3a2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shouldShake: 1
+  simpleAmount: 0.3
 --- !u!1 &8945827407045561076
 GameObject:
   m_ObjectHideFlags: 0
@@ -168,6 +187,7 @@ GameObject:
   - component: {fileID: 1877381377857757297}
   - component: {fileID: 1514824859950417800}
   - component: {fileID: 6799432918424155428}
+  - component: {fileID: 7543915318299836588}
   m_Layer: 0
   m_Name: asteriod 1
   m_TagString: MyCoin
@@ -289,6 +309,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 866ea672ee479534ca9201f48b4741fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 0
+  heart1: {fileID: 0}
+  heart2: {fileID: 0}
+  heart3: {fileID: 0}
 --- !u!95 &6799432918424155428
 Animator:
   serializedVersion: 3
@@ -308,6 +332,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7543915318299836588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8945827407045561076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee809d5ab36a3ee4489a9e93a7bc3a2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shouldShake: 1
+  simpleAmount: 0.3
 --- !u!1 &9155123559097077357
 GameObject:
   m_ObjectHideFlags: 0

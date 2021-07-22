@@ -61,6 +61,7 @@ GameObject:
   - component: {fileID: 6437107693371770834}
   - component: {fileID: 8652756977136210540}
   - component: {fileID: 3297722412820134450}
+  - component: {fileID: 7606399124704981505}
   m_Layer: 0
   m_Name: asteriod 1
   m_TagString: MyCoin
@@ -182,6 +183,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 866ea672ee479534ca9201f48b4741fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 0
+  heart1: {fileID: 0}
+  heart2: {fileID: 0}
+  heart3: {fileID: 0}
 --- !u!95 &3297722412820134450
 Animator:
   serializedVersion: 3
@@ -201,6 +206,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7606399124704981505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646815539145639446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee809d5ab36a3ee4489a9e93a7bc3a2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shouldShake: 1
+  simpleAmount: 0.3
 --- !u!1 &5594075505041703123
 GameObject:
   m_ObjectHideFlags: 0
@@ -215,6 +234,7 @@ GameObject:
   - component: {fileID: 4420053631505845697}
   - component: {fileID: 9219736119165916040}
   - component: {fileID: 8435505077842501258}
+  - component: {fileID: 5811419455600752394}
   m_Layer: 0
   m_Name: asteriod 1 (1)
   m_TagString: MyCoin
@@ -336,6 +356,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 866ea672ee479534ca9201f48b4741fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 0
+  heart1: {fileID: 0}
+  heart2: {fileID: 0}
+  heart3: {fileID: 0}
 --- !u!95 &8435505077842501258
 Animator:
   serializedVersion: 3
@@ -355,6 +379,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5811419455600752394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5594075505041703123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee809d5ab36a3ee4489a9e93a7bc3a2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shouldShake: 1
+  simpleAmount: 0.3
 --- !u!1 &7894762706588641408
 GameObject:
   m_ObjectHideFlags: 0
@@ -369,6 +407,7 @@ GameObject:
   - component: {fileID: 3576734050143546660}
   - component: {fileID: 4001993315827218046}
   - component: {fileID: 3905016127358389269}
+  - component: {fileID: 3209030973041613224}
   m_Layer: 0
   m_Name: asteriod 1 (3)
   m_TagString: MyCoin
@@ -490,6 +529,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 866ea672ee479534ca9201f48b4741fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 0
+  heart1: {fileID: 0}
+  heart2: {fileID: 0}
+  heart3: {fileID: 0}
 --- !u!95 &3905016127358389269
 Animator:
   serializedVersion: 3
@@ -509,3 +552,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3209030973041613224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7894762706588641408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee809d5ab36a3ee4489a9e93a7bc3a2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shouldShake: 1
+  simpleAmount: 0.3
