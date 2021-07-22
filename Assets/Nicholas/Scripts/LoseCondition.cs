@@ -42,7 +42,7 @@ public class LoseCondition : MonoBehaviour
                 Debug.Log("test3");
                 heart3.SetActive(false);
                 currentHealth = 3;
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
         }
 
