@@ -38,6 +38,6 @@ public class Pause : MonoBehaviour
     public void quit()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 }
